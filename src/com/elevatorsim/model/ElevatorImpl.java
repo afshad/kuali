@@ -1,6 +1,8 @@
 package com.elevatorsim.model;
 
-public class ElevatorImpl implements Elevator{
+import java.util.Observable;
+
+public class ElevatorImpl extends Observable implements Elevator {
 
 	@Override
 	public int getCurrentFloor() {
