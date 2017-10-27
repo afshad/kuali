@@ -56,5 +56,11 @@ public class ElevatorImpl implements Elevator{
 		return false;
 	}
 
+	@Override
+	public void gotoFloor(int floor) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 }

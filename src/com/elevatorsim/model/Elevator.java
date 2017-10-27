@@ -6,6 +6,12 @@ public interface Elevator {
 	}
 	
 	/**
+	 * Ask the elevator to goto a certain floor.
+	 * @param floor Goto the particular floor.
+	 */
+	public void gotoFloor(int floor);
+	
+	/**
 	 * The current floor the elevator is on if its moving.
 	 * @return  The current floor the elevator is on if its moving.
 	 */
